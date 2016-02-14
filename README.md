@@ -10,10 +10,20 @@ Vagrantを起動して、sshログインするだけ。
 cd src/
 
 # Vagrantを起動
-vagrant up
+vagrant up --provider virtualbox
 
 # sshログイン
 vagrant ssh
+```
+
+シャットダウンする場合。
+
+```
+# シャットダウン
+vagrant halt
+
+# 削除
+vagrant destroy -f
 ```
 
 ## 課題管理
