@@ -1,0 +1,2 @@
+# build-docker-host
+Dockerホストを構築する手順を確立します。Ubuntuをベースとして、Ansibleを使用して自動構築して、動作確認はVagrantで行いますが最終的にはDigital Oceanで動作させます。
